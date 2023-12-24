@@ -1,0 +1,4 @@
+npm config set prefix "D:\node\node_global"
+npm config set cache "D:\node\node_cache"
+
+Error trying to parse file:Unexpected trailing characters in Package\User\Default(Windows)sublime keymap:1:35

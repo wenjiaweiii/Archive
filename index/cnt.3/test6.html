@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>随机点名</title>
+    <meta charset="UTF-8">
+    <script>
+      function randomName() {
+        var names = ["001", "002", "003", "004", "005", "006", "007"];
+        var randomIndex = Math.floor(Math.random() * names.length);
+        var name = names[randomIndex];
+        document.getElementById("result").innerHTML = name;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>随机点名</h1>
+    <p>点击下面的按钮随机点名：</p >
+    <button onclick="randomName()">点名</button>
+    <p id="result"></p >
+  </body>
+</html>
+

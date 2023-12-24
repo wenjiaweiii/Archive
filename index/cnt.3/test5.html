@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>时间</title>
+</head>
+<body>
+	<center>
+	<style type="text/css">
+		*{
+			margin: 0;
+		}
+		#warp{
+			width:600px;
+			height:200px;
+			background-color: rgb(191, 199, 38);
+		}
+		#txt{
+			position:relative;
+			left: 30%;
+			top:10px;
+			float: left;
+			
+					width:240px;
+					height:30px;
+					background-color: rgb(100, 177, 177);
+					text-align:center;
+					color:rgb(217, 24, 62);
+					font-size: 20px;
+					overflow: hidden;
+		}
+		</style>
+		<script>
+		function startTime(){
+			var today=new Date();
+			var n=today.getFullYear();
+			var y=today.getMonth()+1;
+			var d=today.getDate();
+			var h=today.getHours();
+			var m=today.getMinutes();
+			var s=today.getSeconds();
+			y=checkTime(y);
+			m=checkTime(m);
+			s=checkTime(s);
+			document.getElementById('txt').innerHTML=n+"年"+y+"月"+d+"日"+":"+h+":"+m+":"+s;
+			   t=setTimeout(function(){startTime()},500);
+		}
+		function checkTime(i){
+			if (i<10){
+				i="0" + i;
+			}
+			return i;
+		}
+		</script>
+		<body onLoad="startTime()">
+			<div id="warp">
+		<div id="txt"></div>
+			</div>
+		</center>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<8uftp>
+<Settings>
+<Item name="Tool Normal Start" type="numeric">0</Item>
+<Item name="Last Server Host" type="string">49.232.136.86</Item>
+<Item name="Last Server Port" type="numeric">21</Item>
+<Item name="Last Server User" type="string">2203050320</Item>
+<Item name="Last Server dont save pass" type="numeric">0</Item>
+<Item name="Last server name" type="string"></Item>
+<Item name="Last Server Pass" type="string">124115126002002006004006004007</Item>
+<Item name="Last Server Firewall Bypass" type="numeric">0</Item>
+<Item name="Last Server Path" type="string">256 0 </Item>
+<Item name="Last Server Type" type="numeric">256</Item>
+<Item name="Last Server transfer mode" type="numeric">0</Item>
+<Item name="Default Folder" type="string">C:\Users\40844\Desktop\index\</Item>
+<Item name="Last Window Size" type="string">0 222 88 1195 704</Item>
+<Item name="Last Splitter Pos" type="string">360 106 477 469 476</Item>
+<Item name="Pasv" type="numeric">1</Item>
+</Settings>
+<RecentServers>
+<Server Host="49.232.136.86" Port="21" User="2203050320" Pass="124115126002002006004006004007" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+</RecentServers>
+<TransferQueue/>
+</8uftp>
